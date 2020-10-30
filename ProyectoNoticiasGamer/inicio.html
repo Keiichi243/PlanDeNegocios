@@ -1,81 +1,102 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Pagina Principal</title>
-<link rel="stylesheet" href="estilos.css">
+    <meta charset="iso-8559-1">
+    <meta name="description" content="Pagina noticias sobre Videojuegos ">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/estilos.css">
+    <script src="JS/Dia.js"></script>
+    <title>Pagina Principal</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Productos</a>
- 
-				<div>
- 
-					<ul>
-						<li class="titulo"><a href="">Categoria #1</a></li>
-						<li><a href="">Categoria #2</a></li>
-						<li><a href="">Categoria #3</a></li>
-						<li><a href="">Categoria #4</a></li>
-						<li><a href="">Categoria #5</a></li>
-					</ul>
- 
-					<ul>
-						<li class="titulo azul"><a href="">Categoria #1</a></li>
-						<li><a href="">Categoria #2</a></li>
-						<li><a href="">Categoria #3</a></li>
-						<li><a href="">Categoria #4</a></li>
-						<li><a href="">Categoria #5</a></li>
-					</ul>
- 
-					<ul>
-						<li class="titulo verde"><a href="">Categoria #1</a></li>
-						<li><a href="">Categoria #2</a></li>
-						<li><a href="">Categoria #3</a></li>
-						<li><a href="">Categoria #4</a></li>
-						<li><a href="">Categoria #5</a></li>
-					</ul>
- 
-					<ul>
-						<li class="titulo rojo"><a href="">Categoria #1</a></li>
-						<li><a href="">Categoria #2</a></li>
-						<li><a href="">Categoria #3</a></li>
-						<li><a href="">Categoria #4</a></li>
-						<li><a href="">Categoria #5</a></li>
-					</ul>
- 
-					<ul>
-						<li class="titulo naranja"><a href="">Categoria #1</a></li>
-						<li><a href="">Categoria #2</a></li>
-						<li><a href="">Categoria #3</a></li>
-						<li><a href="">Categoria #4</a></li>
-						<li><a href="">Categoria #5</a></li>
-					</ul>
-				</div>
- 
-				</li>
-				<li><a href="#">blog del gamer</a></li>
-				<li><a href="#">Reseñas</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-        </nav>
-
+        <h1>Hoy es:
+            <script>
+                dia_de_hoy();
+            </script>
+        </h1>
     </header>
-	<aside>
+    <nav id="navegacionprincipal">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a>
+                <div>
+                    <ul>
+                        <li class="titulo"><a href="">Categoria #1</a></li>
+                        <li><a href="">Categoria #2</a></li>
+                        <li><a href="">Categoria #3</a></li>
+                        <li><a href="">Categoria #4</a></li>
+                        <li><a href="">Categoria #5</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titulo azul"><a href="">Categoria #1</a></li>
+                        <li><a href="">Categoria #2</a></li>
+                        <li><a href="">Categoria #3</a></li>
+                        <li><a href="">Categoria #4</a></li>
+                        <li><a href="">Categoria #5</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titulo verde"><a href="">Categoria #1</a></li>
+                        <li><a href="">Categoria #2</a></li>
+                        <li><a href="">Categoria #3</a></li>
+                        <li><a href="">Categoria #4</a></li>
+                        <li><a href="">Categoria #5</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titulo rojo"><a href="">Categoria #1</a></li>
+                        <li><a href="">Categoria #2</a></li>
+                        <li><a href="">Categoria #3</a></li>
+                        <li><a href="">Categoria #4</a></li>
+                        <li><a href="">Categoria #5</a></li>
+                    </ul>
+                    <ul>
+                        <li class="titulo naranja"><a href="">Categoria #1</a></li>
+                        <li><a href="">Categoria #2</a></li>
+                        <li><a href="">Categoria #3</a></li>
+                        <li><a href="">Categoria #4</a></li>
+                        <li><a href="">Categoria #5</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">blog del gamer</a></li>
+            <li><a href="#">Reseñas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <aside id="barralateral">
+        <blockquote>
+            Primer elemento
+        </blockquote>
+        <blockquote>
+            Segundo elemento
+        </blockquote>
+        <blockquote>
+            Tercer elemento
+        </blockquote>
+    </aside>
+    <section id="contenidoprincipal">
+        <!--<p style="font-size: 24px; font-weight: bold">Hola <script>escribe_nombre(mi_nombre);</script>. Bienvenid@</p>-->
+        <center>
+            <h1>Contenido Mas Reciente</h1>
+        </center>
+        <div align="center"><img src="Images/Portada.jpg" alt="Foto de portada para la pagina" width="500" height="300">
+        </div>
+        <dl>
+            <dt>
+                <p style="text-align:justify">Actualmente los videojuegos han generado y presentado un gran impacto dentro de la sociedadas ya que se esta volviendo parte de nuestrto diario vivir cada dia que va pasando, tnato por parte de las consolas que cada vez van sacando juegos
+                    con mejores graficos y que llamen la atención de sus usuarios, como para aquellos que son nuevos y no las conocen y los mismo sucede con los pc gamer ya que estos son llamativos, con colores led y con componenetes que para aquellos
+                    que conocen algo sobre este tema quedan facinados por el rendimiento que estos pueden llegar a generar con los juegos que estan siendo la mayor tendencia.</p>
+            </dt>
+        </dl>
+    </section>
 
-	</aside>
-	<section>
-		<h4>PAGINA DEDICADA A NOTICIAS DE LOS NUEVOS Y ANTIGUOS JUEGOS DE DIFERENTES FRANQUICIAS
-			DE ESTE MUNDILLO
-		</h4>
-	</section>
-	<aside>
-		
-	</aside>
-	<footer>
-		Derechos reservados
-	</footer>
+    <footer id="pieprincipal">
+        <i>Derechos Reservados</i>
+        <br>
+        <b>Creado por:</b> Jeisson Mauricio Montero Melo - Juan David Zarrate
+    </footer>
 </body>
+
 </html>
